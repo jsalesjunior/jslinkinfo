@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Grupo VIP de Ofertas – WhatsApp</title>
+  <meta name="description" content="Entre no grupo VIP do WhatsApp e receba ofertas selecionadas de Mercado Livre e Amazon todos os dias." />
+  <meta property="og:title" content="Grupo VIP de Ofertas – WhatsApp" />
+  <meta property="og:description" content="Receba ofertas quentes todos os dias no seu WhatsApp. Entre grátis!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" />
+  <meta name="theme-color" content="#25D366" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0b1020; --card:#0f1630; --muted:#c7d2fe; --text:#e6e9ff; --brand:#25D366; --brand-dark:#1ea454; --accent:#3483fa;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;background:linear-gradient(180deg,#0b1020 0%,#0e1330 60%,#0b1020 100%);color:var(--text)}
+    a{color:inherit}
+    .container{max-width:960px;margin:0 auto;padding:24px}
+    .hero{display:grid;gap:20px;align-items:center;padding:56px 0}
+    .badge{display:inline-flex;align-items:center;gap:8px;background:rgba(37,211,102,.14);border:1px solid rgba(37,211,102,.35);color:#b6ffd1;padding:6px 10px;border-radius:999px;font-weight:600;font-size:13px}
+    h1{font-size:clamp(28px,5vw,44px);line-height:1.1;margin:10px 0 8px}
+    .sub{color:#cfd6ff;max-width:52ch;font-size:clamp(15px,2.5vw,18px)}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.03));backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.12);border-radius:18px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+    .cta{display:inline-flex;align-items:center;gap:10px;background:var(--brand);color:#062a11;padding:14px 22px;border-radius:12px;text-decoration:none;font-weight:800;font-size:16px;border:2px solid rgba(0,0,0,.08);box-shadow:0 6px 0 #138e43;transition:transform .1s ease, box-shadow .1s ease}
+    .cta:hover{transform:translateY(-2px);box-shadow:0 10px 0 #138e43}
+    .cta:active{transform:translateY(0);box-shadow:0 6px 0 #138e43}
+    .cta.secondary{background:transparent;color:var(--text);border:1px solid rgba(255,255,255,.2);box-shadow:none}
+    .grid{display:grid;gap:16px}
+    @media(min-width:900px){.hero{grid-template-columns:1.1fr .9fr}.grid.cols-3{grid-template-columns:repeat(3,1fr)}.grid.cols-2{grid-template-columns:repeat(2,1fr)}}
+    .feature{padding:18px;border-radius:14px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08)}
+    .feature h3{margin:6px 0 6px;font-size:18px}
+    .feature p{margin:0;color:#bfc7ff;font-size:14px}
+    .testi{display:flex;gap:12px;align-items:flex-start;padding:16px;border-radius:14px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08)}
+    .avatar{width:42px;height:42px;border-radius:50%;background:#fff;display:grid;place-items:center;color:#0b1020;font-weight:800}
+    .faq details{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:12px}
+    .faq summary{cursor:pointer;font-weight:700}
+    .footer{opacity:.8;font-size:12px;color:#b2b9ff;padding:24px 0;text-align:center}
+    .logo{display:inline-flex;align-items:center;gap:10px;font-weight:900}
+    .logo i{width:28px;height:28px;background:var(--brand);border-radius:8px;display:inline-block}
+    .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(52,131,250,.12);border:1px solid rgba(52,131,250,.35);color:#d3e3ff;font-size:12px;font-weight:700}
+    .trust{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+    .trust img{height:28px;opacity:.9;filter:grayscale(30%)}
+    .divider{height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.15),transparent);margin:22px 0}
+  </style>
+  <!-- Coloque aqui seus pixels, se quiser (Meta/Google) -->
+</head>
+<body>
+  <header class="container" aria-label="Topo">
+    <div class="logo"><i></i><span>Ofertas do Dia</span></div>
+  </header>
+
+  <main class="container">
+    <!-- HERO -->
+    <section class="hero">
+      <div>
+        <span class="badge">📲 Grupo VIP no WhatsApp</span>
+        <h1>Receba as <span style="color:#7dd3fc">melhores ofertas</span> de Mercado Livre e Amazon <span style="color:#86efac">todos os dias</span></h1>
+        <p class="sub">Entre no nosso grupo e receba descontos reais, curados manualmente, com links diretos e segurança. Nada de spam, apenas oportunidades que valem a pena.</p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:18px">
+          <a class="cta" href="https://chat.whatsapp.com/SEU-LINK-AQUI" target="_blank" rel="noopener" aria-label="Entrar no grupo de ofertas no WhatsApp">
+            <span>👉 Entrar no Grupo de Ofertas</span>
+          </a>
+          <a class="cta secondary" href="#beneficios">Ver benefícios</a>
+        </div>
+        <div class="trust" style="margin-top:16px">
+          <span class="pill">Atualizado diariamente</span>
+          <span class="pill">Curadoria humana</span>
+          <span class="pill">Links verificados</span>
+        </div>
+      </div>
+      <div class="card" style="padding:22px">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width:100%;max-width:280px;display:block;margin:0 auto">
+        <div style="text-align:center;margin-top:16px;color:#cfd6ff">Junte-se a +1.200 caçadores de ofertas 📈</div>
+      </div>
+    </section>
+
+    <div class="divider" role="separator"></div>
+
+    <!-- BENEFÍCIOS -->
+    <section id="beneficios" class="grid cols-3" aria-label="Benefícios">
+      <div class="feature">
+        <h3>Ofertas reais</h3>
+        <p>Nada de “metade do dobro”. Selecionamos só promoções com preço e reputação confiáveis.</p>
+      </div>
+      <div class="feature">
+        <h3>Todos os dias</h3>
+        <p>As melhores oportunidades em tecnologia, casa, utilidades, games e mais.</p>
+      </div>
+      <div class="feature">
+        <h3>Compra segura</h3>
+        <p>Links diretos de Mercado Livre e Amazon, com frete rápido e garantia da plataforma.</p>
+      </div>
+    </section>
+
+    <div style="height:10px"></div>
+
+    <!-- PROVA SOCIAL -->
+    <section class="grid cols-2" aria-label="Depoimentos">
+      <div class="testi">
+        <div class="avatar">A</div>
+        <div>
+          <strong>André</strong>
+          <p style="margin:4px 0 0;color:#bfc7ff">“Entro todo dia e já economizei mais de R$ 500 em compras. Grupo sem flood, só oferta boa.”</p>
+        </div>
+      </div>
+      <div class="testi">
+        <div class="avatar">L</div>
+        <div>
+          <strong>Laura</strong>
+          <p style="margin:4px 0 0;color:#bfc7ff">“Curadoria ótima. Sempre que preciso de algo, espero aparecer no grupo e pago bem menos.”</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider" role="separator"></div>
+
+    <!-- FAQ -->
+    <section class="faq grid cols-2" aria-label="Perguntas frequentes">
+      <details>
+        <summary>O grupo é gratuito?</summary>
+        <p>Sim, totalmente gratuito. Você pode sair quando quiser.</p>
+      </details>
+      <details>
+        <summary>Quantas mensagens por dia?</summary>
+        <p>Em média 5–15 ofertas por dia. Sem spam e sem mensagens fora de assunto.</p>
+      </details>
+      <details>
+        <summary>Que tipos de produtos aparecem?</summary>
+        <p>Principalmente tecnologia, eletrônicos, informática, casa & cozinha e produtos com alto desconto.</p>
+      </details>
+      <details>
+        <summary>Posso sugerir produtos?</summary>
+        <p>Sim! Você pode pedir um produto específico e avisamos quando aparecer uma boa oferta.</p>
+      </details>
+    </section>
+
+    <div class="divider" role="separator"></div>
+
+    <!-- CTA FINAL -->
+    <section style="text-align:center">
+      <h2 style="margin:0 0 10px">Pronto para economizar de verdade?</h2>
+      <p class="sub" style="margin:0 auto 16px">Clique abaixo e entre no grupo agora. É grátis e você pode sair a qualquer momento.</p>
+      <a class="cta" href="https://chat.whatsapp.com/BqytyOWVVxaKiERBaafmKk" target="_blank" rel="noopener">🚀 Entrar no Grupo no WhatsApp</a>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="ano"></span> Ofertas do Dia • Este site utiliza links de afiliado de Mercado Livre e Amazon.</p>
+    <p>Ao clicar nos links, você pode nos ajudar a manter o serviço sem pagar nada a mais por isso.</p>
+  </footer>
+
+  <script>
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
